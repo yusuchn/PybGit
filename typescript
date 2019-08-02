@@ -504,3 +504,65 @@ Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressin
 Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 311 bytes | 0 bytes/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To git@github.com:yusuchn/PybGit.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ \[Kgit push -u origin master[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@f
+Everything up-to-date
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ co[K[Kadd[K[K[Kgit aa[Kdd >[K.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git commot[K[Kot[K[Kit -m ""s"e"c"o"n"d" "c"o"m"m"i"t"[C
+[master 7ab7174] second commit
+ 18 files changed, 756 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100755 build.py
+ create mode 100644 build.pyc
+ create mode 100644 example_primes.html
+ create mode 120000 script
+ create mode 100644 setup.py
+ create mode 120000 source
+ create mode 100644 src/main/python/example_hello.py
+ create mode 100644 src/main/python/example_hello.pyc
+ create mode 100644 src/main/python/example_primes.py
+ create mode 100644 src/main/python/example_primes.pyc
+ create mode 100644 src/main/scripts/example_primes_script.py
+ create mode 100644 src/unittest/python/example_hello_tests.py
+ create mode 100644 src/unittest/python/example_hello_tests.pyc
+ create mode 100644 src/unittest/python/example_primes_tests.py
+ create mode 100644 src/unittest/python/example_primes_tests.pyc
+ create mode 120000 test
+ create mode 100644 typescript
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git commit -m "second commit"[Kgit commit -m "second commit"add .[Kpush -f origin masteru[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote add origin yusuchn@gmail.com:yusuchn/PybGit.git[3Pgit@github.com:yusuchn/PybGit.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khttps://github.com/yusuchn/PybGit.GIT[K[K[Kgit
+fatal: remote origin already exists.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git removte[K[K[Kte -v
+origin	git@github.com:yusuchn/PybGit.git (fetch)
+origin	git@github.com:yusuchn/PybGit.git (push)
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git remote -v[K[K[K[K[K[K[K[K[Kpush origin master
+Counting objects: 27, done.
+Delta compression using up to 40 threads.
+Compressing objects:   4% (1/21)   Compressing objects:   9% (2/21)   Compressing objects:  14% (3/21)   Compressing objects:  19% (4/21)   Compressing objects:  23% (5/21)   Compressing objects:  28% (6/21)   Compressing objects:  33% (7/21)   Compressing objects:  38% (8/21)   Compressing objects:  42% (9/21)   Compressing objects:  47% (10/21)   Compressing objects:  52% (11/21)   Compressing objects:  57% (12/21)   Compressing objects:  61% (13/21)   Compressing objects:  66% (14/21)   Compressing objects:  71% (15/21)   Compressing objects:  76% (16/21)   Compressing objects:  80% (17/21)   Compressing objects:  85% (18/21)   Compressing objects:  90% (19/21)   Compressing objects:  95% (20/21)   Compressing objects: 100% (21/21)   Compressing objects: 100% (21/21), done.
+Writing objects:   3% (1/26)   Writing objects:   7% (2/26)   Writing objects:  11% (3/26)   Writing objects:  15% (4/26)   Writing objects:  19% (5/26)   Writing objects:  23% (6/26)   Writing objects:  26% (7/26)   Writing objects:  30% (8/26)   Writing objects:  34% (9/26)   Writing objects:  38% (10/26)   Writing objects:  42% (11/26)   Writing objects:  46% (12/26)   Writing objects:  50% (13/26)   Writing objects:  53% (14/26)   Writing objects:  57% (15/26)   Writing objects:  61% (16/26)   Writing objects:  65% (17/26)   Writing objects:  69% (18/26)   Writing objects:  73% (19/26)   Writing objects:  76% (20/26)   Writing objects:  80% (21/26)   Writing objects:  84% (22/26)   Writing objects:  88% (23/26)   Writing objects:  92% (24/26)   Writing objects:  96% (25/26)   Writing objects: 100% (26/26)   Writing objects: 100% (26/26), 13.91 KiB | 0 bytes/s, done.
+Total 26 (delta 0), reused 0 (delta 0)
+To git@github.com:yusuchn/PybGit.git
+   68be479..7ab7174  master -> master
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ cd script
+]0;ysu1@localhost:~/MyProject/script(env) [ysu1@localhost script]$ nano example_hello_script.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?1049h[1;50r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1                               File: example_hello_script.py                                                                      [48;68H[ New File ][49d^G(B[m Get Help[49;25H(B[0;7m^O(B[m WriteOut[49;49H(B[0;7m^R(B[m Read File[49;73H(B[0;7m^Y(B[m Prev Page[49;97H(B[0;7m^K(B[m Cut Text[49;121H(B[0;7m^C(B[m Cur Pos[50d(B[0;7m^X(B[m Exit[50;25H(B[0;7m^J(B[m Justify[50;49H(B[0;7m^W(B[m Where Is[50;73H(B[0;7m^V(B[m Next Page[50;97H(B[0;7m^U(B[m UnCut Text[50;121H(B[0;7m^T(B[m To Spell[3d[1;137H(B[0;7mModified[3d(B[m#!usr   /ur sr/bin/env pyt[48d[K[3;19Hhn on[4dimport sys[5d[6d"""[7dWrite ""h"	e"l"ll"o"f""[K "f"r"o"[Zm" "[Z	[1PHello from "[7;9Hello f	m a" "s"c"r"i"[Zp"t"!"" to	stdout[8d"""[9d[10dsys.stdout.wrte  ite()')'')H')e')l')ll')o')[Z ')[Zf')r')o')m') ')a') ')[Zs')[Zc')r')i')p')t')!')\')[Zn')[Z'[Z[Z[Z[1P"Hello from a script!\n')[10;19HHello	from a 	cript!\	'[Z)[K[Z"))[48d(B[0;7mFile Name to Write: example_hello_script.py                                                                                                       [49;25H(B[m            (B[0;7mM-D(B[m DOS Format          [49;73H(B[0;7mM-A(B[m Append  [49;97H            (B[0;7mM-B(B[m Backup File[K[50;2H(B[0;7mC(B[m Cancel[50;25H            (B[0;7mM-M(B[m Mac Format         [50;73H(B[0;7mM-P(B[m Prepend[K[48;44H[1;137H[39;49m(B[0;7m        [48;64H(B[m[1K	(B[0;7m[ Wrote 8 lines ](B[m[K[49;25H(B[0;7m^O(B[m WriteOut             (B[0;7m^R(B[m Read File[49;73H(B[0;7m^Y(B[m Prev Page[49;97H(B[0;7m^K(B[m Cut Text             (B[0;7m^C(B[m Cur Pos[50;2H(B[0;7mX(B[m Exit  [50;25H(B[0;7m^J(B[m Justify[14X[50;49H(B[0;7m^W(B[m Where Is[50;73H(B[0;7m^V(B[m Next Page[50;97H(B[0;7m^U(B[m UnCut Text[50;121H(B[0;7m^T(B[m To Spell[10;43H[49d[J[50;146H[50;1H[?1049l[?1l>]0;ysu1@localhost:~/MyProject/script(env) [ysu1@localhost script]$ ls
+example_hello_script.py  example_primes_script.py
+]0;ysu1@localhost:~/MyProject/script(env) [ysu1@localhost script]$ cd 
+]0;ysu1@localhost:~(env) [ysu1@localhost ~]$ cd MyProject
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ pyb
+[1mPyBuilder version 0.11.17[0m
+Build started at 2019-08-02 15:31:31
+------------------------------------------------------------
+[1m[INFO] [0m Building MyProject version 1.0
+[1m[INFO] [0m Executing build in /home/ysu1/MyProject
+[1m[INFO] [0m Going to execute task publish
+[1m[INFO] [0m Running unit tests
+[1m[INFO] [0m Executing unit tests from Python modules in /home/ysu1/MyProject/src/unittest/python
+[1m[INFO] [0m Executed 3 unit tests
+[1m[INFO] [0m All unit tests passed.
+[1m[INFO] [0m Building distribution in /home/ysu1/MyProject/target/dist/MyProject-1.0
+[1m[INFO] [0m Copying scripts to /home/ysu1/MyProject/target/dist/MyProject-1.0/scripts
+[1m[INFO] [0m Writing setup.py as /home/ysu1/MyProject/target/dist/MyProject-1.0/setup.py
+[1m[INFO] [0m Collecting coverage information
+[1;33m[WARN] [0m coverage_branch_threshold_warn is 0 and branch coverage will not be checked
+[1;33m[WARN] [0m coverage_branch_partial_threshold_warn is 0 and partial branch coverage 
