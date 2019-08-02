@@ -1,0 +1,506 @@
+Script started on Fri 02 Aug 2019 11:33:16 BST
+]0;ysu1@localhost:~/MyProject[?1034h(env) [ysu1@localhost MyProject]$ cd script
+]0;ysu1@localhost:~/MyProject/script(env) [ysu1@localhost script]$ nano examle[K[Kple_primes_script.py
+[?1049h[1;50r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1                             File: example_primes_script.py                                                                [3;1H(B[m#!/usr/bin/env python[4dimport sys[6dfrom example_primes import first_N_primes[8dN = 10[9dprint("The first ", N. "primes are:")[11dfor (n in first_N_primes(N):[12;5Hpritn(n)[13dprint()[48;62H(B[0;7m[ Read 11 lines ][49d^G(B[m Get Help[49;24H(B[0;7m^O(B[m WriteOut[49;47H(B[0;7m^R(B[m Read File[49;70H(B[0;7m^Y(B[m Prev Page[49;93H(B[0;7m^K(B[m Cut Text[49;116H(B[0;7m^C(B[m Cur Pos[50d(B[0;7m^X(B[m Exit[50;24H(B[0;7m^J(B[m Justify[50;47H(B[0;7m^W(B[m Where Is[50;70H(B[0;7m^V(B[m Next Page[50;93H(B[0;7m^U(B[m UnCut Text[50;116H(B[0;7m^T(B[m To Spell[3d[4d[5d[6d[7d[8d[9d[10d[11dfor (n 	n first	N[48d[K[11;19Hpr[A[9;21H[1;130H(B[0;7mModified[9;20H(B[m[1PN.[1P, "primes are:")[9;22H [1P"p	imes ar	:"[48d(B[0;7mFile Name to Write: example_primes_script.py                                                                                               [49;24H(B[m           (B[0;7mM-D(B[m DOS Format          [49;69H(B[0;7mM-A(B[m Append   [49;93H          (B[0;7mM-B(B[m Backup File[K[50;2H(B[0;7mC(B[m Cancel[50;24H           (B[0;7mM-M(B[m Mac Format         [50;69H(B[0;7mM-P(B[m Prepend[K[48;45H[1;130H[39;49m(B[0;7m        [48;60H(B[m[1K (B[0;7m[ Wrote 11 lines ](B[m[K[49;24H(B[0;7m^O(B[m WriteOut            (B[0;7m^R(B[m Read File[49;69H (B[0;7m^Y(B[m Prev Page[49;93H(B[0;7m^K(B[m Cut Text            (B[0;7m^C(B[m Cur Pos[50;2H(B[0;7mX(B[m Exit  [50;24H(B[0;7m^J(B[m Justify             (B[0;7m^W(B[m Where Is[50;69H (B[0;7m^V(B[m Next Page[50;93H(B[0;7m^U(B[m UnCut Text[50;116H(B[0;7m^T(B[m To Spell[9;35H[49d[J[50;139H[50;1H[?1049l[?1l>]0;ysu1@localhost:~/MyProject/script(env) [ysu1@localhost script]$ 
+]0;ysu1@localhost:~/MyProject/script(env) [ysu1@localhost script]$ cd 
+]0;ysu1@localhost:~(env) [ysu1@localhost ~]$ x[Kcd MyProject
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ pyb
+[1mPyBuilder version 0.11.17[0m
+Build started at 2019-08-02 11:34:18
+------------------------------------------------------------
+[1m[INFO] [0m Building MyProject version 1.0
+[1m[INFO] [0m Executing build in /home/ysu1/MyProject
+[1m[INFO] [0m Going to execute task publish
+[1m[INFO] [0m Running unit tests
+[1m[INFO] [0m Executing unit tests from Python modules in /home/ysu1/MyProject/src/unittest/python
+[1m[INFO] [0m Executed 3 unit tests
+[1m[INFO] [0m All unit tests passed.
+[1m[INFO] [0m Building distribution in /home/ysu1/MyProject/target/dist/MyProject-1.0
+[1m[INFO] [0m Copying scripts to /home/ysu1/MyProject/target/dist/MyProject-1.0/scripts
+[1m[INFO] [0m Writing setup.py as /home/ysu1/MyProject/target/dist/MyProject-1.0/setup.py
+[1m[INFO] [0m Collecting coverage information
+[1;33m[WARN] [0m coverage_branch_threshold_warn is 0 and branch coverage will not be checked
+[1;33m[WARN] [0m coverage_branch_partial_threshold_warn is 0 and partial branch coverage will not be checked
+[1m[INFO] [0m Running unit tests
+[1m[INFO] [0m Executing unit tests from Python modules in /home/ysu1/MyProject/src/unittest/python
+[1m[INFO] [0m Executed 3 unit tests
+[1m[INFO] [0m All unit tests passed.
+[1m[INFO] [0m Overall coverage is 100%
+[1m[INFO] [0m Overall coverage branch coverage is 83%
+[1m[INFO] [0m Overall coverage partial branch coverage is 83%
+[1m[INFO] [0m Building binary distribution in /home/ysu1/MyProject/target/dist/MyProject-1.0
+------------------------------------------------------------
+[1;32mBUILD SUCCESSFUL[0m
+------------------------------------------------------------
+Build Summary
+             Project: MyProject
+             Version: 1.0
+      Base directory: /home/ysu1/MyProject
+        Environments: 
+               Tasks: prepare [189 ms] compile_sources [0 ms] run_unit_tests [29 ms] package [4 ms] run_integration_tests [0 ms] verify [401 ms] publish [494 ms]
+Build finished at 2019-08-02 11:34:20
+Build took 1 seconds (1130 ms)
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ pybcd MyProject[Knano example_primes_script.pycd script[Ksudo ./start_new_no_hubble_mapping.sh /home/ysu1/zodiac-r2-new_hubbleMerged/src/OGP2Runner/bin/x64/Releasee /data/Analysis_1/20181031_132352/Fastq/DefaultProject /data/local_analyses/analysis_170_hubble_normal_1 /data/genomes -fastq '-s /home/ysuu1/SampleSheet.csv' '-p /home/ysu1/ParametersOverride_IUO.tsv'[A[Acd script[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[Kprb[K[K[Kpip install target/dist/MyProject-1.0/dist/MyProject-1.0.tar.gz
+Processing ./target/dist/MyProject-1.0/dist/MyProject-1.0.tar.gz
+Building wheels for collected packages: MyProject
+  Running setup.py bdist_wheel for MyProject ... [?25l- done
+[?25h  Stored in directory: /home/ysu1/.cache/pip/wheels/2e/10/aa/6a6f8e5274aeb4dab5d98c367e29cede28e646ee1598d3cfd6
+Successfully built MyProject
+Installing collected packages: MyProject
+  Found existing installation: MyProject 1.0
+    Uninstalling MyProject-1.0:
+      Successfully uninstalled MyProject-1.0
+Successfully installed MyProject-1.0
+[33mYou are using pip version 10.0.1, however version 19.2.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.[0m
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ example_primes_script.py
+  File "/home/ysu1/MyProject/env/bin/example_primes_script.py", line 9
+    for (n in first_N_primes(N):
+                               ^
+SyntaxError: invalid syntax
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ cd scrt[Kipt
+]0;ysu1@localhost:~/MyProject/script(env) [ysu1@localhost script]$ nano example_primes_script.py
+[?1049h[1;50r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1                             File: example_primes_script.py                                                                [3;1H(B[m#!/usr/bin/env python[4dimport sys[6dfrom example_primes import first_N_primes[8dN = 10[9dprint("The first ",N,"primes are:")[11dfor (n in first_N_primes(N):[12;5Hpritn(n)[13dprint()[48;62H(B[0;7m[ Read 11 lines ][49d^G(B[m Get Help[49;24H(B[0;7m^O(B[m WriteOut[49;47H(B[0;7m^R(B[m Read File[49;70H(B[0;7m^Y(B[m Prev Page[49;93H(B[0;7m^K(B[m Cut Text[49;116H(B[0;7m^C(B[m Cur Pos[50d(B[0;7m^X(B[m Exit[50;24H(B[0;7m^J(B[m Justify[50;47H(B[0;7m^W(B[m Where Is[50;70H(B[0;7m^V(B[m Next Page[50;93H(B[0;7m^U(B[m UnCut Text[50;116H(B[0;7m^T(B[m To Spell[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[Afor ([1;130H(B[0;7mModified[11;5H(B[m[1Pn i	 firs[48d[K[11;16H	_primes	N):[12d   [11;28H[Z[12;13H[13;8H[14d[48d(B[0;7mFile Name to Write: example_primes_script.py                                                                                               [49;24H(B[m           (B[0;7mM-D(B[m DOS Format          [49;69H(B[0;7mM-A(B[m Append   [49;93H          (B[0;7mM-B(B[m Backup File[K[50;2H(B[0;7mC(B[m Cancel[50;24H           (B[0;7mM-M(B[m Mac Format         [50;69H(B[0;7mM-P(B[m Prepend[K[48;45H[1;130H[39;49m(B[0;7m        [48;60H(B[m[1K (B[0;7m[ Wrote 11 lines ](B[m[K[49;24H(B[0;7m^O(B[m WriteOut            (B[0;7m^R(B[m Read File[49;69H (B[0;7m^Y(B[m Prev Page[49;93H(B[0;7m^K(B[m Cut Text            (B[0;7m^C(B[m Cur Pos[50;2H(B[0;7mX(B[m Exit  [50;24H(B[0;7m^J(B[m Justify             (B[0;7m^W(B[m Where Is[50;69H (B[0;7m^V(B[m Next Page[50;93H(B[0;7m^U(B[m UnCut Text[50;116H(B[0;7m^T(B[m To Spell[14d[49d[J[50;139H[50;1H[?1049l[?1l>]0;ysu1@localhost:~/MyProject/script(env) [ysu1@localhost script]$ cd 
+]0;ysu1@localhost:~(env) [ysu1@localhost ~]$ cd MyProject
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ pyb
+[1mPyBuilder version 0.11.17[0m
+Build started at 2019-08-02 11:37:16
+------------------------------------------------------------
+[1m[INFO] [0m Building MyProject version 1.0
+[1m[INFO] [0m Executing build in /home/ysu1/MyProject
+[1m[INFO] [0m Going to execute task publish
+[1m[INFO] [0m Running unit tests
+[1m[INFO] [0m Executing unit tests from Python modules in /home/ysu1/MyProject/src/unittest/python
+[1m[INFO] [0m Executed 3 unit tests
+[1m[INFO] [0m All unit tests passed.
+[1m[INFO] [0m Building distribution in /home/ysu1/MyProject/target/dist/MyProject-1.0
+[1m[INFO] [0m Copying scripts to /home/ysu1/MyProject/target/dist/MyProject-1.0/scripts
+[1m[INFO] [0m Writing setup.py as /home/ysu1/MyProject/target/dist/MyProject-1.0/setup.py
+[1m[INFO] [0m Collecting coverage information
+[1;33m[WARN] [0m coverage_branch_threshold_warn is 0 and branch coverage will not be checked
+[1;33m[WARN] [0m coverage_branch_partial_threshold_warn is 0 and partial branch coverage will not be checked
+[1m[INFO] [0m Running unit tests
+[1m[INFO] [0m Executing unit tests from Python modules in /home/ysu1/MyProject/src/unittest/python
+[1m[INFO] [0m Executed 3 unit tests
+[1m[INFO] [0m All unit tests passed.
+[1m[INFO] [0m Overall coverage is 100%
+[1m[INFO] [0m Overall coverage branch coverage is 83%
+[1m[INFO] [0m Overall coverage partial branch coverage is 83%
+[1m[INFO] [0m Building binary distribution in /home/ysu1/MyProject/target/dist/MyProject-1.0
+------------------------------------------------------------
+[1;32mBUILD SUCCESSFUL[0m
+------------------------------------------------------------
+Build Summary
+             Project: MyProject
+             Version: 1.0
+      Base directory: /home/ysu1/MyProject
+        Environments: 
+               Tasks: prepare [194 ms] compile_sources [0 ms] run_unit_tests [31 ms] package [4 ms] run_integration_tests [0 ms] verify [375 ms] publish [489 ms]
+Build finished at 2019-08-02 11:37:17
+Build took 1 seconds (1107 ms)
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ pip install target/dist/MyProject-1.0/dist/MyProject-1.0.tar.gz
+Processing ./target/dist/MyProject-1.0/dist/MyProject-1.0.tar.gz
+Building wheels for collected packages: MyProject
+  Running setup.py bdist_wheel for MyProject ... [?25l- done
+[?25h  Stored in directory: /home/ysu1/.cache/pip/wheels/2e/10/aa/6a6f8e5274aeb4dab5d98c367e29cede28e646ee1598d3cfd6
+Successfully built MyProject
+Installing collected packages: MyProject
+  Found existing installation: MyProject 1.0
+    Uninstalling MyProject-1.0:
+      Successfully uninstalled MyProject-1.0
+Successfully installed MyProject-1.0
+[33mYou are using pip version 10.0.1, however version 19.2.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.[0m
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ example_primes_script.py
+('The first ', 10, 'primes are:')
+Traceback (most recent call last):
+  File "/home/ysu1/MyProject/env/bin/example_primes_script.py", line 10, in <module>
+    pritn(n)
+NameError: name 'pritn' is not defined
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ cd scrpti[K[K[Kipt
+]0;ysu1@localhost:~/MyProject/script(env) [ysu1@localhost script]$ nana[Kp [K[Ko example_primes_script.py
+[?1049h[1;50r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1                             File: example_primes_script.py                                                                [3;1H(B[m#!/usr/bin/env python[4dimport sys[6dfrom example_primes import first_N_primes[8dN = 10[9dprint("The first ",N,"primes are:")[11dfor n in first_N_primes(N):[12;5Hpritn(n)[13dprint()[48;62H(B[0;7m[ Read 11 lines ][49d^G(B[m Get Help[49;24H(B[0;7m^O(B[m WriteOut[49;47H(B[0;7m^R(B[m Read File[49;70H(B[0;7m^Y(B[m Prev Page[49;93H(B[0;7m^K(B[m Cut Text[49;116H(B[0;7m^C(B[m Cur Pos[50d(B[0;7m^X(B[m Exit[50;24H(B[0;7m^J(B[m Justify[50;47H(B[0;7m^W(B[m Where Is[50;70H(B[0;7m^V(B[m Next Page[50;93H(B[0;7m^U(B[m UnCut Text[50;116H(B[0;7m^T(B[m To Spell[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[A    pri	[1;130H(B[0;7mModified[12;8H(B[mn(n)[K[Z	t(n)[48d(B[0;7mFile Name to Write: example_primes_script.py                                                                                               [49;24H(B[m           (B[0;7mM-D(B[m DOS Format          [49;69H(B[0;7mM-A(B[m Append   [49;93H          (B[0;7mM-B(B[m Backup File[K[50;2H(B[0;7mC(B[m Cancel[50;24H           (B[0;7mM-M(B[m Mac Format         [50;69H(B[0;7mM-P(B[m Prepend[K[48;45H[1;130H[39;49m(B[0;7m        [48;60H(B[m[1K (B[0;7m[ Wrote 11 lines ](B[m[K[49;24H(B[0;7m^O(B[m WriteOut            (B[0;7m^R(B[m Read File[49;69H (B[0;7m^Y(B[m Prev Page[49;93H(B[0;7m^K(B[m Cut Text            (B[0;7m^C(B[m Cur Pos[50;2H(B[0;7mX(B[m Exit  [50;24H(B[0;7m^J(B[m Justify             (B[0;7m^W(B[m Where Is[50;69H (B[0;7m^V(B[m Next Page[50;93H(B[0;7m^U(B[m UnCut Text[50;116H(B[0;7m^T(B[m To Spell[12;10H[49d[J[50;139H[50;1H[?1049l[?1l>]0;ysu1@localhost:~/MyProject/script(env) [ysu1@localhost script]$ cd 
+]0;ysu1@localhost:~(env) [ysu1@localhost ~]$ cd MyProject
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ pry[Kb[K[Kyb
+[1mPyBuilder version 0.11.17[0m
+Build started at 2019-08-02 11:39:23
+------------------------------------------------------------
+[1m[INFO] [0m Building MyProject version 1.0
+[1m[INFO] [0m Executing build in /home/ysu1/MyProject
+[1m[INFO] [0m Going to execute task publish
+[1m[INFO] [0m Running unit tests
+[1m[INFO] [0m Executing unit tests from Python modules in /home/ysu1/MyProject/src/unittest/python
+[1m[INFO] [0m Executed 3 unit tests
+[1m[INFO] [0m All unit tests passed.
+[1m[INFO] [0m Building distribution in /home/ysu1/MyProject/target/dist/MyProject-1.0
+[1m[INFO] [0m Copying scripts to /home/ysu1/MyProject/target/dist/MyProject-1.0/scripts
+[1m[INFO] [0m Writing setup.py as /home/ysu1/MyProject/target/dist/MyProject-1.0/setup.py
+[1m[INFO] [0m Collecting coverage information
+[1;33m[WARN] [0m coverage_branch_threshold_warn is 0 and branch coverage will not be checked
+[1;33m[WARN] [0m coverage_branch_partial_threshold_warn is 0 and partial branch coverage will not be checked
+[1m[INFO] [0m Running unit tests
+[1m[INFO] [0m Executing unit tests from Python modules in /home/ysu1/MyProject/src/unittest/python
+[1m[INFO] [0m Executed 3 unit tests
+[1m[INFO] [0m All unit tests passed.
+[1m[INFO] [0m Overall coverage is 100%
+[1m[INFO] [0m Overall coverage branch coverage is 83%
+[1m[INFO] [0m Overall coverage partial branch coverage is 83%
+[1m[INFO] [0m Building binary distribution in /home/ysu1/MyProject/target/dist/MyProject-1.0
+------------------------------------------------------------
+[1;32mBUILD SUCCESSFUL[0m
+------------------------------------------------------------
+Build Summary
+             Project: MyProject
+             Version: 1.0
+      Base directory: /home/ysu1/MyProject
+        Environments: 
+               Tasks: prepare [188 ms] compile_sources [0 ms] run_unit_tests [31 ms] package [4 ms] run_integration_tests [0 ms] verify [363 ms] publish [502 ms]
+Build finished at 2019-08-02 11:39:24
+Build took 1 seconds (1103 ms)
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ pip install target/dist/MyProject-1.0/dist/MyProject-1.0.tar.gz
+Processing ./target/dist/MyProject-1.0/dist/MyProject-1.0.tar.gz
+Building wheels for collected packages: MyProject
+  Running setup.py bdist_wheel for MyProject ... [?25l- done
+[?25h  Stored in directory: /home/ysu1/.cache/pip/wheels/2e/10/aa/6a6f8e5274aeb4dab5d98c367e29cede28e646ee1598d3cfd6
+Successfully built MyProject
+Installing collected packages: MyProject
+  Found existing installation: MyProject 1.0
+    Uninstalling MyProject-1.0:
+      Successfully uninstalled MyProject-1.0
+Successfully installed MyProject-1.0
+[33mYou are using pip version 10.0.1, however version 19.2.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.[0m
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ example_primes_script.py
+('The first ', 10, 'primes are:')
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+()
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git status
+# On branch master
+#
+# Initial commit
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.coverage
+#	build.py
+#	build.pyc
+#	env/
+#	example_primes.html
+#	script
+#	setup.py
+#	source
+#	src/
+#	target/
+#	test
+#	typescript
+nothing added to commit but untracked files present (use "git add" to track)
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git status
+# On branch master
+#
+# Initial commit
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.coverage
+#	build.py
+#	build.pyc
+#	env/
+#	example_primes.html
+#	script
+#	setup.py
+#	source
+#	src/
+#	target/
+#	test
+#	typescript
+nothing added to commit but untracked files present (use "git add" to track)
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git status
+# On branch master
+#
+# Initial commit
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.coverage
+#	build.py
+#	build.pyc
+#	env/
+#	example_primes.html
+#	script
+#	setup.py
+#	source
+#	src/
+#	target/
+#	test
+#	typescript
+nothing added to commit but untracked files present (use "git add" to track)
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ nano
+[?1049h[1;50r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1                                   New Buffer                                                                              [49;1H^G(B[m Get Help[49;24H(B[0;7m^O(B[m WriteOut[49;47H(B[0;7m^R(B[m Read File[49;70H(B[0;7m^Y(B[m Prev Page[49;93H(B[0;7m^K(B[m Cut Text[49;116H(B[0;7m^C(B[m Cur Pos[50d(B[0;7m^X(B[m Exit[50;24H(B[0;7m^J(B[m Justify[50;47H(B[0;7m^W(B[m Where Is[50;70H(B[0;7m^V(B[m Next Page[50;93H(B[0;7m^U(B[m UnCut Text[50;116H(B[0;7m^T(B[m To Spell[3d[1;130H(B[0;7mModified[3d(B[m.conver    verage[4d__pycache__	[A.covera	e[4d__[5denv[6dtarget[48d(B[0;7mFile Name to Write:                                                                                                                        [49;24H(B[m           (B[0;7mM-D(B[m DOS Format          [49;69H(B[0;7mM-A(B[m Append   [49;93H          (B[0;7mM-B(B[m Backup File[K[50;2H(B[0;7mC(B[m Cancel[50;24H           (B[0;7mM-M(B[m Mac Format         [50;69H(B[0;7mM-P(B[m Prepend[K[48;21H(B[0;7m.(B[m(B[0;7mg(B[m(B[0;7mi(B[m(B[0;7mt(B[m(B[0;7mi(B[m(B[0;7mg(B[m(B[0;7mn(B[m(B[0;7mo(B[m(B[0;7mr(B[m(B[0;7me(B[m[1;50H[39;49m(B[0;7mFile: .gitignore[1;130H        [48;61H(B[m[1K (B[0;7m[ Wrote 4 lines ](B[m[K[49;24H(B[0;7m^O(B[m WriteOut            (B[0;7m^R(B[m Read File[49;69H (B[0;7m^Y(B[m Prev Page[49;93H(B[0;7m^K(B[m Cut Text            (B[0;7m^C(B[m Cur Pos[50;2H(B[0;7mX(B[m Exit  [50;24H(B[0;7m^J(B[m Justify             (B[0;7m^W(B[m Where Is[50;69H (B[0;7m^V(B[m Next Page[50;93H(B[0;7m^U(B[m UnCut Text[50;116H(B[0;7m^T(B[m To Spell[6;7H[49d[J[50;139H[50;1H[?1049l[?1l>]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git status
+# On branch master
+#
+# Initial commit
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.gitignore
+#	build.py
+#	build.pyc
+#	example_primes.html
+#	script
+#	setup.py
+#	source
+#	src/
+#	test
+#	typescript
+nothing added to commit but untracked files present (use "git add" to track)
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git add .gitignore
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git add *
+The following paths are ignored by one of your .gitignore files:
+env
+target
+Use -f if you really want to add them.
+fatal: no files added
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git commit -am ""i"n"i"t"i"a"l" "c"o"m"i"[1P"m"i"t"[C
+[master (root-commit) da335de] initial commit
+ Committer: Yu Su <ysu1@localhost.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+)
+ create mode 100644 .gitignore
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git cb[Konfig --gloab[K[Kbal user.name ""Y"u"[1P"[1P"y"s"u"[C
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git config --gloabal[K[K[K[K[Kba[K[K[Koballobal[C[C[C[C em[K[Kuser.email yusuchn@gmail.com
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ echo ""#"P"y"b"G"i"t"[C >> README/[K.md
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git init
+Reinitialized existing Git repository in /home/ysu1/MyProject/.git/
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git add README.md
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git commit - [Km ""f"i"r"s"t" "c"o"m"m"i"t"[C
+[master 4c8e957] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git remi[Kote add r[Kprigin[K[K[K[K[K[Koriginal git@github.com:yu[K[K[K/[C[1P git@github.com/[1P git@github.com/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K:yusuchn/PybGit.git
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git push - u origin master[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+The authenticity of host 'github.com (140.82.118.3)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+RSA key fingerprint is MD5:16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,140.82.118.3' (RSA) to the list of known hosts.
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git push -u origin masterremote add origin git@github.com:yusuchn/PybGit.git[1P@github.com:yusuchn/PybGit.git[1P@github.com:yusuchn/PybGit.git[1P@github.com:yusuchn/PybGit.gity@github.com:yusuchn/PybGit.gitu@github.com:yusuchn/PybGit.gits@github.com:yusuchn/PybGit.gitu@github.com:yusuchn/PybGit.gitc@github.com:yusuchn/PybGit.gith@github.com:yusuchn/PybGit.gitn@github.com:yusuchn/PybGit.git[C[C[C[C[C[C[C[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.gitm.com:yusuchn/PybGit.gita.com:yusuchn/PybGit.giti.com:yusuchn/PybGit.gitl.com:yusuchn/PybGit.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+fatal: remote origin already exists.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git remote add origin yusuchn@gmail.com:yusuchn/PybGit.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[33Ppush -u origin master
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ cd 
+]0;ysu1@localhost:~(env) [ysu1@localhost ~]$ cd ~/.ssh
+]0;ysu1@localhost:~/.ssh(env) [ysu1@localhost .ssh]$ ls
+authorized_keys  known_hosts
+]0;ysu1@localhost:~/.ssh(env) [ysu1@localhost .ssh]$ ssh-keygen -o -t rsa -c[Kc[KC ""Y"U"S"U"C"H"N"[1P"[1P"[1P"[1P"[1P"[1P"[1P"y"u"s"u"c"h"n"@"g"m"a"i"l"c"l"[1P"[1P"."c"o"m"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/ysu1/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/ysu1/.ssh/id_rsa.
+Your public key has been saved in /home/ysu1/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:UDcJTttM6zZqbBpwEqC1CD9vGBQ/0tS9MzLBuzvjWW8 yusuchn@gmail.com
+The key's randomart image is:
++---[RSA 2048]----+
+|. =..o .+.+.     |
+|.* *  ++.*.o     |
+|o * = .oo.+      |
+|   * o+.+.       |
+|  . = .+So+      |
+|   . +.. o .     |
+|      ..*        |
+|      +B .E      |
+|     .+o ..      |
++----[SHA256]-----+
+]0;ysu1@localhost:~/.ssh(env) [ysu1@localhost .ssh]$ cat ~/.ssh/id)[K_ra[Ksa.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/UcDpZ9CLgxih7aR6gnVIe3jQQMhgbP2rXQIGLMJqJioZLHrT3tJBWwAyWHdXEaPss82NZYCMy+ca+VKksaXKtLOok3EJhv0Lk5yWKFTfyWvwDGiyfIaUgq3RwhI6QONg9a+7R/fhwLV/AuXTU23J8Fu2heXO0t5G5qSyg+XQYGn+mInPIqCknCOPsa4Tf3AjNG39obrMMaI+7/rxRWbTYk7P/80ZJIgRUHUq53CcVVcbCYEXszPTZ+wGYVPc9GW+bJL5o1C1CvnlTp1hN4jRtrxFBywx/QQKG5EJmGqkPn5XqG3EBWJUYqdkWR/MGUdVq7MmG5CM8XGYEKXWtsZP yusuchn@gmail.com
+]0;ysu1@localhost:~/.ssh(env) [ysu1@localhost .ssh]$ [K(env) [ysu1@localhost .ssh]$ [K(env) [ysu1@localhost .ssh]$ [K(env) [ysu1@localhost .ssh]$ [K(env) [ysu1@localhost .ssh]$ cd 
+]0;ysu1@localhost:~(env) [ysu1@localhost ~]$ cd MyProject
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git remote add origin yusuchn@gmailclm[K[K[K[Kl.com:yusuchn/Pybg[Kg[KGir[Kt.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+fatal: remote origin already exists.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git push -u prigin[K[K[K[K[K[Korigin master
+Warning: Permanently added the RSA host key for IP address '140.82.118.4' to the list of known hosts.
+To git@github.com:yusuchn/PybGit.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:yusuchn/PybGit.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first merge the remote changes (e.g.,
+hint: 'git pull') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git pu;;[K[Kll prigin[K[K[K[K[K[Kprigin[K[K[K[K[K[Korigin master
+warning: no common commits
+remote: Enumerating objects: 6, done.[K
+remote: Counting objects:  16% (1/6)   [Kremote: Counting objects:  33% (2/6)   [Kremote: Counting objects:  50% (3/6)   [Kremote: Counting objects:  66% (4/6)   [Kremote: Counting objects:  83% (5/6)   [Kremote: Counting objects: 100% (6/6)   [Kremote: Counting objects: 100% (6/6), done.[K
+remote: Compressing objects:  33% (1/3)   [Kremote: Compressing objects:  66% (2/3)   [Kremote: Compressing objects: 100% (3/3)   [Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  16% (1/6)   Unpacking objects:  33% (2/6)   Unpacking objects:  50% (3/6)   Unpacking objects:  66% (4/6)   Unpacking objects:  83% (5/6)   Unpacking objects: 100% (6/6)   Unpacking objects: 100% (6/6), done.
+From github.com:yusuchn/PybGit
+ * branch            master     -> FETCH_HEAD
+Auto-merging README.md
+CONFLICT (add/add): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git pull origin master[3@sh -u[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+To git@github.com:yusuchn/PybGit.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:yusuchn/PybGit.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git push -u origin master[3Pll[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@-[1@u[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C
+U	README.md
+Pull is not possible because you have unmerged files.
+Please, fix them up in the work tree, and then use 'git add/rm <file>'
+as appropriate to mark resolution, or use 'git commit -a'.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git pull -u origin mastersh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pll[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@sh -u[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote add origin yusuchn@gmail.com:yusuchn/PybGit.git
+fatal: remote origin already exists.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git remote add origin yusuchn@gmail.com:yusuchn/PybGit.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[33Ppull -u origin mastersh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+To git@github.com:yusuchn/PybGit.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:yusuchn/PybGit.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first merge the remote changes (e.g.,
+hint: 'git pull') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git push -u origin masterremote add origin yusuchn@gmail.com:yusuchn/PybGit.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[33Ppull -u origin mastersh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pll[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@sh -u[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote add origin yusuchn@gmail.com:yusuchn/PybGit.git
+fatal: remote origin already exists.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git remote add origin yusuchn@gmail.com:yusuchn/PybGit.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kscho[K[K[K[Kecho ""#" "P"y"G"i"t"bGit"[C[C[C[C >> README.md
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git init
+Reinitialized existing Git repository in /home/ysu1/MyProject/.git/
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git add README.md
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ .com[K[K[K[Kgit commit -m ""f"i"r"s"t" "c"o"m"m"i"t"[C
+[master 94c0a33] first commit
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git remote add origingit[K[K[K git@githb[K[Khub.vom[K[K[Kcom:yusuchn/PybGit.git
+fatal: remote origin already exists.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git push -u prigin[K[K[K[K[K[Korigin master
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git push -u origin masterremote add origin git@github.com:yusuchn/PybGit.git[1P:yusuchn/PybGit.git[1P:yusuchn/PybGit.git[1P:yusuchn/PybGit.git[1P:yusuchn/PybGit.git[1P:yusuchn/PybGit.git[1P:yusuchn/PybGit.git[1P:yusuchn/PybGit.git[1P:yusuchn/PybGit.git[1P:yusuchn/PybGit.git[1P:yusuchn/PybGit.git[1P:yusuchn/PybGit.git[1P:yusuchn/PybGit.git[1P:yusuchn/PybGit.git[1P:yusuchn/PybGit.gity:yusuchn/PybGit.gitu:yusuchn/PybGit.gits:yusuchn/PybGit.gitu:yusuchn/PybGit.gitc:yusuchn/PybGit.gith:yusuchn/PybGit.gitn:yusuchn/PybGit.git@:yusuchn/PybGit.gitg:yusuchn/PybGit.gitm:yusuchn/PybGit.gita:yusuchn/PybGit.giti:yusuchn/PybGit.gitl:yusuchn/PybGit.git.:yusuchn/PybGit.gitc:yusuchn/PybGit.gito:yusuchn/PybGit.gitm:yusuchn/PybGit.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+fatal: remote origin already exists.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git remote add origin yusuchn@gmail.com:yusuchn/PybGit.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[33Ppush -u origin master
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git push -u origin master
+Counting objects: 13, done.
+Delta compression using up to 40 threads.
+Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
+Writing objects:   7% (1/13)   Writing objects:  15% (2/13)   Writing objects:  23% (3/13)   Writing objects:  30% (4/13)   Writing objects:  38% (5/13)   Writing objects:  46% (6/13)   Writing objects:  53% (7/13)   Writing objects:  61% (8/13)   Writing objects:  69% (9/13)   Writing objects:  76% (10/13)   Writing objects:  84% (11/13)   Writing objects:  92% (12/13)   Writing objects: 100% (13/13)   Writing objects: 100% (13/13), 2.01 KiB | 0 bytes/s, done.
+Total 13 (delta 0), reused 0 (delta 0)
+To git@github.com:yusuchn/PybGit.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git push -u origin masterremote add origin yusuchn@gmail.com:yusuchn/PybGit.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[33Ppush -u origin masterremote add origin git@github.com:yusuchn/PybGit.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Ppush -u origin master[1P[1P[1P[1P[1P[1P[1P[1@p[1@u[1@l[1@l[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+From github.com:yusuchn/PybGit
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git pull origin master[3@sh -u[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kremote add orgin[K[K[Kigin yusuchn@gmailc.[K[K.com:yuus[K[Ksuchn/PybGit.git
+fatal: remote origin already exists.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git remote add origin yusuchn@gmail.com:yusuchn/PybGit.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[36Ppull origin master[3@sh -u[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Branch master set up to track remote branch master from origin.
+Everything up-to-date
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git push -u origin master[1P[1@f[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Everything up-to-date
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git push -f origin master[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Everything up-to-date
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git push -f origin masteru[C[C[C[C[C[C[C[C[C[C[C[C[C[Cf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C -f
+Everything up-to-date
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git push origin master -f-f[K origin masteru[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote add origin yusuchn@gmail.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.gitg.com:yusuchn/PybGit.giti.com:yusuchn/PybGit.gitt.com:yusuchn/PybGit.git@.com:yusuchn/PybGit.gitG.com:yusuchn/PybGit.giti.com:yusuchn/PybGit.gitt.com:yusuchn/PybGit.gitH.com:yusuchn/PybGit.gitu.com:yusuchn/PybGit.gitb.com:yusuchn/PybGit.git[C.com:yusuchn/PybGit.gitc.com:yusuchn/PybGit.gito.com:yusuchn/PybGit.gitm.com:yusuchn/PybGit.git[C[C[C[C[1P:yusuchn/PybGit.git[1P:yusuchn/PybGit.git[1P:yusuchn/PybGit.git[1P:yusuchn/PybGit.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+fatal: remote origin already exists.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git remote add origin git@GitHub.com:yusuchn/PybGit.git[K
+fatal: remote origin already exists.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git remote add origin git@GitHub.com:yusuchn/PybGit.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kecho ""#" "P"y"b"G"i"t"[C >> README.md
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git init
+Initialized empty Git repository in /home/ysu1/MyProject/.git/
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git initecho "# PybGit" >> README.mdgit remote add origin git@GitHub.com:yusuchn/PybGit.gi[1P.com:yusuchn/PybGit.gi[1P.com:yusuchn/PybGit.gi[1P.com:yusuchn/PybGit.gi[1P.com:yusuchn/PybGit.gi[1P.com:yusuchn/PybGit.gi[1P.com:yusuchn/PybGit.gig.com:yusuchn/PybGit.gii.com:yusuchn/PybGit.git.com:yusuchn/PybGit.gih.com:yusuchn/PybGit.giu.com:yusuchn/PybGit.gib.com:yusuchn/PybGit.gi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git pyus[K[K[Kush -u orgi[K[Kigin master
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git push -u origin masterremote add origin git@github.com:yusuchn/PybGit.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinit[Kremote add origin git@github.com:yusuchn/PybGit.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kadd README.md
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git commit - m ""f"r"[1P"i"r"s"t" "c"o"m"m"i"t"[C
+error: pathspec '-' did not match any file(s) known to git.
+error: pathspec 'm' did not match any file(s) known to git.
+error: pathspec 'first commit' did not match any file(s) known to git.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git commit - m "first commit"[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[master (root-commit) 68be479] first commit
+ 1 file changed, 8 insertions(+)
+ create mode 100644 README.md
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git commit -m "first commit"[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Padd README.mdpush -u origin masterremote add origin git@github.com:yusuchn/PybGit.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+fatal: remote origin already exists.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ push -u origin master
+bash: push: command not found...
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ push -u origin master[1@g[1@i[1@t[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git push -u origin master[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit remote add origin git@github.com:yusuchn/PybGit.git
+fatal: remote origin already exists.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git remote add origin git@github.com:yusuchn/PybGit.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit remote add origin git@github.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git .com:yusuchn/PybGit.gity.com:yusuchn/PybGit.gitu.com:yusuchn/PybGit.gits.com:yusuchn/PybGit.gitu.com:yusuchn/PybGit.gitc.com:yusuchn/PybGit.gith.com:yusuchn/PybGit.gitn.com:yusuchn/PybGit.git@.com:yusuchn/PybGit.gitg.com:yusuchn/PybGit.gitm.com:yusuchn/PybGit.gita.com:yusuchn/PybGit.giti.com:yusuchn/PybGit.gitl.com:yusuchn/PybGit.git[C.com:yusuchn/PybGit.gitc.com:yusuchn/PybGit.gito.com:yusuchn/PybGit.gitm.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1P.com:yusuchn/PybGit.git[1Pcom:yusuchn/PybGit.git
+fatal: remote origin already exists.
+]0;ysu1@localhost:~/MyProject(env) [ysu1@localhost MyProject]$ git remote add origin yusuchn@gmail.com:yusuchn/PybGit.git[3Pgit@github.com:yusuchn/PybGit.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Ppush -u origin master
+\Counting objects: 3, done.
+Delta compression using up to 40 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 311 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github.com:yusuchn/PybGit.git
